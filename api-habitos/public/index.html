@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hábitos Saudáveis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h2>Acompanhe seus hábitos e veja seu progresso crescer</h2>
+  </header>
+
+  <!-- CARD DE NÍVEL -->
+  <section class="level-card">
+    <div class="level-left">
+      <h3>Nível <span id="nivel">1</span></h3>
+      <p><span id="pontosTotais">0</span> pontos totais</p>
+
+      <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+
+      <p class="progress-text"><span id="porcentagem">0%</span> completo</p>
+    </div>
+
+    <div class="level-right">
+      ⭐ <span id="faltaProximoNivel">100</span> pts para o próximo nível
+    </div>
+  </section>
+
+  <h3 class="subtitulo">Hábitos do Dia</h3>
+
+  <div id="habitList"></div>
+
+  <footer>
+    <p>Total de hábitos: <span id="totalHabitos">0</span> | Check-ins hoje: <span id="checkinsHoje">0</span></p>
+    <p>Streak: <span id="streakDias">0</span> dias seguidos</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

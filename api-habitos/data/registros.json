@@ -1,0 +1,39 @@
+{
+  "2025-11-16": [
+    {
+      "habitId": 1,
+      "valor": 2300,
+      "cumpriu": true
+    },
+    {
+      "habitId": 2,
+      "valor": 15,
+      "cumpriu": true
+    },
+    {
+      "habitId": 2,
+      "valor": 9,
+      "cumpriu": false
+    },
+    {
+      "habitId": 2,
+      "valor": 15,
+      "cumpriu": true
+    },
+    {
+      "habitId": 1,
+      "valor": 5000,
+      "cumpriu": true
+    },
+    {
+      "habitId": 1,
+      "valor": "7000",
+      "cumpriu": true
+    },
+    {
+      "habitId": 3,
+      "valor": "70",
+      "cumpriu": true
+    }
+  ]
+}
